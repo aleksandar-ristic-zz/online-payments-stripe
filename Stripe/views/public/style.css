@@ -1,0 +1,61 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-height: 100vh;
+	background-color: #e5e5e5;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	color: hsl(241, 82%, 22%);
+}
+h3 {
+	font: 1.875rem;
+	font-weight: 500;
+	color: #333;
+}
+p {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #444;
+}
+p,
+h3 {
+	line-height: 1.4;
+	margin: 0.3rem 0 1.875rem;
+}
+.btn {
+	padding: 0.35rem 0.85rem;
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: aliceblue;
+	border-radius: 0.35rem;
+}
+.btn-primary {
+	background-color: hsl(241, 75%, 34%);
+	border: 0;
+	text-transform: uppercase;
+}
+.btn-secondary {
+	color: hsl(241, 89%, 66%);
+	border: 1px solid hsl(241, 75%, 34%);
+}
+.link {
+	display: block;
+	margin-top: 1.875rem;
+	color: hsl(241, 89%, 66%);
+	text-decoration: underline;
+	font-size: 1rem;
+}

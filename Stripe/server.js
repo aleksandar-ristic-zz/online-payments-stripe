@@ -10,7 +10,6 @@ app.use(
 		origin: 'http://localhost:5500'
 	})
 )
-app.use(express.static('views'))
 
 const stripe = require('stripe')(process.env.STRIPE_PRIVATE_KEY)
 
